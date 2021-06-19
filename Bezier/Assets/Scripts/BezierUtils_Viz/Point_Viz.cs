@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public class Point_Viz : MonoBehaviour
 {
-    private Vector3 offset = Vector3.zero;
+    private Vector3 mOffset = Vector3.zero;
 
     public delegate void OnPointChange(Transform t);
     public OnPointChange mOnDragPoint;
@@ -30,7 +30,7 @@ public class Point_Viz : MonoBehaviour
             return;
         }
 
-        offset = transform.position - Camera.main.ScreenToWorldPoint(
+        mOffset = transform.position - Camera.main.ScreenToWorldPoint(
             new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0.0f));
 
 
@@ -44,7 +44,7 @@ public class Point_Viz : MonoBehaviour
             return;
         }
         Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0.0f);
-        Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint) + offset;
+        Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint) + mOffset;
         transform.position = curPosition;
 
         mOnDragPoint?.Invoke(transform);
