@@ -34,21 +34,24 @@ A Bézier curve is a parametric curve defined by a set of points known as contro
 
 The generic definition of a point in the Bezier curve is <br/>
 
-![Bezier curve](https://lh5.googleusercontent.com/H_5Cm28iYbV_JXahMbnHi3jJpGGOInNUYUWGINgex1zwIEIgpnGBqbcEQqEzYVmR7bL1TtF4Bo4ZL3CH45NBl8K-Ohjc-Fm-OhGeEGhhKPAVV8RrH75OnJYt5ewtPdVtd36mdopK)
+![Bezier curve](https://github.com/shamim-akhtar/bezier-curve/blob/main/bez.jpg)
 
 
-Where n is the degree of the curve and<br/>
-![Binomial](https://lh6.googleusercontent.com/MHQRrA3IfxRX1MCBX33NbGgqf4rr0P9Fl54pfkE39Caz50KrcdACAPS28DLJGm11GQG5SPFqG_FgIiY0D_XpRRf1WhfIPdMAiUM65Toaqho4ZoEEPU_CgOPdwrjrTe2HKRUl_hwV) are the Binomial coefficients that we can represent as below.
-<br/>
-![Binomial](https://lh6.googleusercontent.com/93PFiBmQsS_GCus0Rb1ohwssyyG3Pgx5QNAmBVIUFEstI03qdXd589rNaLgnwGlME8GByUWWEQ0o-bpIEQJPlpfYJsu9dd9SXCAoOu28jCR1vHWcVlNTJ5RX56C1zjnrjr9ZbVKn)
-<br/>
+Where n is the degree of the curve and
+
+![Binomial](https://github.com/shamim-akhtar/bezier-curve/blob/main/bino2.jpg)
+
+are the Binomial coefficients that we can represent as below.
+
+![Binomial](https://github.com/shamim-akhtar/bezier-curve/blob/main/bino.jpg)
+
 We can simplify the main equation at the top to 
 
-![Bezier Curve](https://lh3.googleusercontent.com/NDs1lHuiO-R5phS5HfM--hIFD9alKe3AkzFATpBRyX0GAqZlIZB4XJ5c0Aaa7K7BsSKM840SYs7qJbpfZXwRAUCzhrA8bULwBW2XxxLP2fn4t4IXglvEHB1qX2hBF441FcKowBe_)
+![Bezier Curve](https://github.com/shamim-akhtar/bezier-curve/blob/main/bezier2.jpg)
 
 where 
 
-![Bernstein](https://lh4.googleusercontent.com/tDnfKr0Ty3ftF_AlUWUYBNT7bdBY6CUehdQ8_LHVeSfKyVk5rirefGGbFx15d1bvT5XyHFHf-vJ_dgC6UR78dnQ6ls4G2HcypZgFqZGPUkF542iCa1TrnzvNkJtCViNY_Bxu88Ll)
+![Bernstein](https://github.com/shamim-akhtar/bezier-curve/blob/main/bernstein.jpg)
 
 are known as <b>Bernstein basis polynomials </b> of degree n.
 
