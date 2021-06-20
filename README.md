@@ -35,24 +35,24 @@ A Bézier curve is a parametric curve defined by a set of points known as contro
 
 The generic definition of a point in the Bezier curve is <br/>
 
-![Bezier curve](https://github.com/shamim-akhtar/bezier-curve/blob/main/bez.jpg)
+> ![Bezier curve](https://github.com/shamim-akhtar/bezier-curve/blob/main/bez.jpg)
 
 
 Where n is the degree of the curve and
 
-![Binomial](https://github.com/shamim-akhtar/bezier-curve/blob/main/bino2.jpg)
+> ![Binomial](https://github.com/shamim-akhtar/bezier-curve/blob/main/bino2.jpg)
 
 are the Binomial coefficients that we can represent as below.
 
-![Binomial](https://github.com/shamim-akhtar/bezier-curve/blob/main/bino.jpg)
+> ![Binomial](https://github.com/shamim-akhtar/bezier-curve/blob/main/bino.jpg)
 
 We can simplify the main equation at the top to 
 
-![Bezier Curve](https://github.com/shamim-akhtar/bezier-curve/blob/main/bezier2.jpg)
+> ![Bezier Curve](https://github.com/shamim-akhtar/bezier-curve/blob/main/bezier2.jpg)
 
 where 
 
-![Bernstein](https://github.com/shamim-akhtar/bezier-curve/blob/main/bernstein.jpg)
+> ![Bernstein](https://github.com/shamim-akhtar/bezier-curve/blob/main/bernstein.jpg)
 
 are known as <b>Bernstein basis polynomials </b> of degree n.
 
