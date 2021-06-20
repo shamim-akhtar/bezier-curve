@@ -230,7 +230,7 @@ Let’s implement the method that returns the list of points representing the Be
         return points;
     }
 ```
-Similarly, we can implement the same for Vector2 as shown below.
+Similarly, we can implement the same for Vector2 and List<Vector2>.
 
 
 
