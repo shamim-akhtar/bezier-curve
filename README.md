@@ -15,6 +15,7 @@
 
 # Implement Bezier Curve using C# in Unity
 
+![Bezier Curve](https://faramira.com/wp-content/uploads/2021/06/Bezier-930x620.jpg)
 
 In this tutorial, we will learn how to implement the Bezier curve using C# in Unity. We will then create a sample application that displays the Bezier curve.
 Read the tutorial on [Faramira.](https://faramira.com/implement-bezier-curve-using-csharp-in-unity/)
@@ -61,4 +62,3 @@ Our first task will be to implement a bezier curve given a set of control points
 
 
 
-![Bezier Curve](https://github.com/shamim-akhtar/bezier-curve/blob/main/Bezier.jpg)
