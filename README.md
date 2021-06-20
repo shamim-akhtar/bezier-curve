@@ -180,7 +180,8 @@ This calculation is just the summation of the Bernstein basis polynomials for al
         int N = controlPoints.Count - 1;
         if (N > 16)
         {
-            Debug.Log("You have used more than 16 control points. The maximum control points allowed is 16.");
+            Debug.Log("You have used more than 16 control points.");
+            Debug.Log("The maximum control points allowed is 16.");
             controlPoints.RemoveRange(16, controlPoints.Count - 16);
         }
         if (t <= 0) return controlPoints[0];
@@ -209,7 +210,8 @@ Let’s implement the method that returns the list of points representing the Be
         int N = controlPoints.Count - 1;
         if (N > 16)
         {
-            Debug.Log("You have used more than 16 control points. The maximum control points allowed is 16.");
+            Debug.Log("You have used more than 16 control points."); 
+            Debug.Log("The maximum control points allowed is 16.");
             controlPoints.RemoveRange(16, controlPoints.Count - 16);
         }
 
